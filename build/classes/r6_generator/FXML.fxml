@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="r6_generator.FXMLController">
+   <children>
+      <Rectangle arcHeight="5.0" fill="#333640" height="399.0" layoutY="1.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" />
+      <Rectangle arcHeight="5.0" fill="#fed30f" height="114.0" stroke="#fed30f" strokeType="INSIDE" width="600.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="63.0" layoutX="226.0" layoutY="139.0" stroke="BLACK" strokeType="INSIDE" width="144.0" />
+      <Button fx:id="btnAttacker" layoutX="179.0" layoutY="233.0" mnemonicParsing="false" onAction="#btnAttackerOnActionHandler" prefHeight="49.0" prefWidth="101.0" text="Attacker" textFill="#d03314">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="2.0" layoutY="1.0" prefHeight="112.0" prefWidth="594.0" text="Rainbow Six: Siege Operator Generator" textAlignment="CENTER" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnDefender" layoutX="321.0" layoutY="233.0" mnemonicParsing="false" onAction="#btnDefenderOnActionHandler" prefHeight="49.0" prefWidth="101.0" text="Defender" textFill="#42b2f8">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbGenerated" alignment="CENTER" layoutX="228.0" layoutY="139.0" prefHeight="64.0" prefWidth="142.0" text="Operator name" textFill="#7c7c7c">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnExit" layoutX="551.0" layoutY="361.0" mnemonicParsing="false" onAction="#btnExitOnActionHandler" text="Exit" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+   </children>
+</AnchorPane>
