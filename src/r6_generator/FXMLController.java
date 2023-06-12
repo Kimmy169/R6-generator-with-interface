@@ -27,7 +27,7 @@ public class FXMLController implements Initializable {
     private Button btnExit;
 
     private final String[] Attackers = {"Sledge", "Thatcher", "Ash", "Thermite", "Montagne", "Twitch", "Blitz", "IQ", "Fuze", "Glaz", "Buck", "Blackbeard", "Capitao", "Hibana", "Jackal", "Ying", "Zofia", "Dokkaebi", "Finka", "Lion", "Maverick", "Nomad", "Gridlock", "Nokk", "Amaru", "Kali", "Iana", "Ace", "Zero", "Flores", "Osa", "Sense", "Grim", "Brava"};
-    private final String[] Defenders = {"Smoke", "Mute", "Castle", "Pulse", "Rook", "Doc", "Bandit", "Jäger", "Kapkan", "Tachanka", "Frost", "Valkyrie", "Caveira", "Echo", "Mira", "Lesion", "Ela", "Vigil", "Maestro", "Alibi", "Clash", "Kaid", "Mozzie", "Warden", "Goyo", "Wamai", "Oryx", "Melusi", "Aruni", "Thunderbird", "Thorn", "Azami", "Solis"};
+    private final String[] Defenders = {"Smoke", "Mute", "Castle", "Pulse", "Rook", "Doc", "Bandit", "Jäger", "Kapkan", "Tachanka", "Frost", "Valkyrie", "Caveira", "Echo", "Mira", "Lesion", "Ela", "Vigil", "Maestro", "Alibi", "Clash", "Kaid", "Mozzie", "Warden", "Goyo", "Wamai", "Oryx", "Melusi", "Aruni", "Thunderbird", "Thorn", "Azami", "Solis","Fenrir"};
     private Random random = new Random();
     private int index = 0;
     private String randomElement = null;
